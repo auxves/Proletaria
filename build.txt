@@ -1,0 +1,4 @@
+displayName = Proletaria
+author = auxves
+version = 0.0.1
+includeSources = true
