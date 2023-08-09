@@ -6,18 +6,9 @@
     <TargetFramework>net6.0</TargetFramework>
     <PlatformTarget>AnyCPU</PlatformTarget>
     <LangVersion>latest</LangVersion>
-	<Nullable>enable</Nullable>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="Content\Items\CommunistManifesto.png" />
-    <None Remove="Content\NPCs\Castro.png" />
-    <None Remove="Content\NPCs\Castro_Head.png" />
-    <None Remove="Content\NPCs\Engels.png" />
-    <None Remove="Content\NPCs\Engels_Head.png" />
-    <None Remove="Content\NPCs\Guevara.png" />
-    <None Remove="Content\NPCs\Guevara_Head.png" />
-    <None Remove="Content\NPCs\Lenin.png" />
-    <None Remove="Content\NPCs\Lenin_Head.png" />
-    <None Remove="localization\en-US_Mods.Proletaria.Works.hjson" />
+    <PackageReference Include="tModLoader.CodeAssist" Version="0.1.*" />
   </ItemGroup>
 </Project>
